@@ -1,3 +1,4 @@
+@import url('~lucide-static/font/Lucide.css');
 * {
     margin: 0;
     padding: 0;
@@ -287,6 +288,17 @@ section {
     gap: 30px;
 }
 
+.skills-category{
+    margin: 25px 0;
+}
+
+.skills-category-title{
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: var(--secondary);
+    position: relative;
+}
+
 .skill-card {
     background: rgba(255, 255, 255, 0.05);
     backdrop-filter: blur(10px);
@@ -376,6 +388,12 @@ section {
     gap: 8px;
 }
 
+.code-btn{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /* Contact Section */
 #contact {
     background: var(--secondary-background);
@@ -395,6 +413,13 @@ section {
 
 .contact-info {
     flex-grow: 1;
+    max-width: 50%;
+}
+
+.contact-text{
+    font-style: italic;
+    margin-bottom: 20px;
+    padding: 10px;
 }
 
 .contact-form {
@@ -501,6 +526,17 @@ footer {
     .about-content,
     .contact-container {
         flex-direction: column;
+    }
+
+    .about-image {
+        width: 100%;
+        margin-right: auto;
+        max-width: 450px;
+        
+    }
+
+    .contact-info {
+        max-width: 100%;
     }
 
     .hero-title {
