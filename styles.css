@@ -208,7 +208,7 @@ section {
     box-shadow: 0 10px 20px rgba(37, 99, 235, 0.3);
 }
 
-.btn-primary:hover {
+.btn:hover {
     transform: translateY(-5px);
     box-shadow: 0 15px 30px rgba(37, 99, 235, 0.4);
 }
@@ -338,6 +338,15 @@ section {
     grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
     gap: 40px;
 }
+/* .projects-scroll{
+    overflow: scroll;
+    width: 100%;
+}
+.projects-container{
+    width: fit-content;
+    display: flex;
+    gap: 40px;
+} */
 
 .project-card {
     background: rgba(255, 255, 255, 0.05);
@@ -346,10 +355,15 @@ section {
     transition: var(--transition);
     border: 1px solid rgba(255, 255, 255, 0.1);
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    /* min-width: 350px; */
 }
 
+/* #side-project{
+    transform: scale(0.85) !important;
+    opacity: 0.5 !important;
+} */
+
 .project-card:hover {
-    transform: translateY(-10px);
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
     border-color: rgba(37, 99, 235, 0.3);
 }

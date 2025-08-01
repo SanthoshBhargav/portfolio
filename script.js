@@ -51,3 +51,15 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         });
     });
 });
+
+// document.querySelector('.projects-scroll').addEventListener('scroll',function(){
+//     document.querySelectorAll('.project-card').forEach(each => {
+//         const xPos = each.getBoundingClientRect().left ;
+//         const windowWidth = window.innerWidth;
+//         if(xPos <= windowWidth * 0.4 || xPos >= windowWidth * 0.6 ){
+//             each.id="side-project";
+//         }else{
+//             each.id="";
+//         }
+//     });
+// });
